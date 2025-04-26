@@ -1,0 +1,157 @@
+body{
+    margin:0;
+    padding:0;
+}
+#hedd{
+    display:flex;
+    justify-content: space-between;
+    margin:0;
+    
+    font-family: "Roboto flex";
+    font-weight:300;
+    height: 290;
+    background:url(images/loaf.jpg) no-repeat left top, url(images/board.jpg) no-repeat right top;
+}
+#ewe{
+    text-align: right;
+    
+    
+}
+#hed{
+    font-family:'roboto slab';
+}
+#hedd div{
+    font-size:30
+}
+#MENU a{
+    text-decoration: none;
+    color:black;
+    padding:15;
+    font-size: 20;}
+#menu a:hover{
+    color:rgba(185, 56, 4, 0.685)
+
+}
+.headingg, .headingg2, .headingg3, .headingg5{
+    font-size:70;
+    text-align:center;
+    font-family:'Libre Caslon Display';
+    line-height: 1.1em;
+    font-weight:280;
+}
+.headingg2, .headingg3{
+    font-size:42;
+    padding-bottom:80;
+}
+.headingg3, .headingg5{
+    text-align: left;
+    padding-left: 51%;
+    padding-bottom: 15;
+}
+.subheadingg, .subheadingg1{
+    font-size: 18;
+    font-family: "Roboto flex";
+    font-weight:350;
+    padding-top:0;
+    padding-bottom:50;
+    text-align:center;
+    color:rgba(156, 87, 7, 0.514)
+}
+.subheadingg1{
+    text-align:left;
+    padding-left: 51%;
+    padding-top: 110;
+    padding-bottom: 25;
+}
+
+
+.button{display: inline-block;
+
+cursor: pointer;
+font-size: 6px;
+border-radius: 500px;
+border:rgba(156, 87, 7, 0.514) ;
+letter-spacing: 2px;
+width:250px;
+text-align: center;
+font-size: 16;
+padding: 20px 18px 20px;
+color: #fff;
+background-color: #1b1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:72px;
+    margin:0 auto;
+    
+}
+.button:hover { background-color:rgba(156, 87, 7, 0.514);}
+
+.secgray{
+    background-color:rgba(241,244,239,1);
+    height:500em;
+    margin:0;
+    padding:0 ;
+}
+.greyy, .greyy1{
+    text-align: center;
+    color: gray;
+    padding-top: 90;
+    padding-bottom: 0;
+    font-size: 18;
+    font-weight: 250;
+    font-family:'Noto sans';
+    
+}
+.greyy a{
+    text-decoration: none;
+    color:black;
+}
+.greyy a:hover{
+    text-decoration: underline;
+    
+}
+.greyy1{
+    padding-top: 5;
+    padding-bottom:25;
+
+    text-align:left;
+    padding-left: 51%;
+    font-weight: 220;
+
+}
+.imgg{
+    padding-left: 5;
+    padding-right:10;
+}
+
+.headingg5{
+    font-size:24;
+    font-weight:20;
+    padding-right:25;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #calc{
+    padding:250;
+    padding-left:350;
+
+} */
