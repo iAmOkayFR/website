@@ -16,6 +16,9 @@ body::-webkit-scrollbar-thumb{
     border-radius: 30px;
     border:3px solid rgb(115, 115, 115);
 }
+#topmost{
+    margin-top: -30px;
+}
 #hedd{
     display:flex;
     justify-content: space-between;
@@ -26,6 +29,7 @@ body::-webkit-scrollbar-thumb{
     font-size: 36;
     padding-left: 18;
     padding-top: 13;
+    padding-right:5;
     height:283;
     background:url(images/loaf.jpg) no-repeat left top, url(images/board.jpg) no-repeat right top;
 }
@@ -59,33 +63,33 @@ body::-webkit-scrollbar-thumb{
     color:rgba(175, 96, 42, 0.65)
 
 }
-.headingg, .headingg2, .headingg3, .headingg5{
+.headingg, .headinggg, .headingg2, .headingg3,.headingg33, .headingg5, .headingg6 , .headingg61, .headingg62{
     font-size:70;
     text-align:center;
     font-family:'Libre Caslon Display';
-    line-height: 1.1em;
+    line-height: 1em;
     font-weight:280;
-    padding-bottom: 20;
+    padding-bottom: 0;
     color: rgb(42, 42, 42);
 }
 .headingg2, .headingg3{
     font-size:42;
     padding-bottom:80;
 }
-.headingg3, .headingg5{
+.headingg3, .headingg5,.headingg33{
     text-align: left;
     padding-left: 51%;
     padding-bottom: 15;
 }
-.subheadingg, .subheadingg2,.subheadingg1{
+.subheadingg, .subheadingg2,.subheadingg1, .subheadingg11,.subheadingg112{
     font-size: 19;
     font-family: "Sans serif";
     font-weight:350;
-    padding-top:0;
-    font-stretch: condensed;
+    padding-top:35;
+    font-stretch: extra-expanded;
     padding-bottom:35;
     text-align:center;
-    color:rgba(156, 87, 7, 0.514)
+    color:rgba(141, 78, 6, 0.589)
 }
 .subheadingg1{
     text-align:left;
@@ -95,36 +99,39 @@ body::-webkit-scrollbar-thumb{
 }
 
 
-.button{display: inline-block;
-
-cursor: pointer;
-border-radius: 500px;
-border:rgba(156, 87, 7, 0.514) ;
-letter-spacing: 2px;
-width:250px;
-text-align: center;
-font-size: 16;
-padding: 20px 18px 20px;
-color: #fff;
-background-color: #1b1a1a;
+.button{
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 500px;
+    border:rgba(156, 87, 7, 0.514) ;
+    letter-spacing: 2px;
+    width:250px;
+    text-align: center;
+    font-size: 16;
+    padding: 20px 18px 20px;
+    color: #fff;
+    background-color: #1b1a1a;
     display: flex;
     justify-content: center;
     align-items: center;
     height:72px;
     margin:0 auto;
+    transition-duration:0.4s ;
+
     
 }
 .button:hover { background-color:rgba(175, 96, 42, 0.65);}
 
 .secgray{
     
-    height:88em;
-    margin:0;
+    height:90em;
+    margin-top: -20;
+    margin-bottom: 20;
     padding:0 ;
     background:url('images/wheatt.jpg') no-repeat bottom center, url(images/cookie.jpg) no-repeat top center ;
     background-color:rgba(241,244,239,1);
 }
-.greyy, .greyy1, .greyy2{
+.greyy, .greyy1, .greyy2,.greyy33{
     text-align: center;
     color: gray;
     padding-top: 90;
@@ -147,7 +154,6 @@ background-color: #1b1a1a;
     padding-bottom:25;
     text-align:left;
     padding-left: 51%;
-    font-weight: 300;
 
 }
 .imgg{
@@ -190,7 +196,8 @@ background-color: #1b1a1a;
 
 .secwhiteaftergrey{
     background-color:rgb(255, 255, 255);
-    height: 80em;
+    height: 75em;
+    margin-top: -40;
 }
 
 .greyy2{
@@ -213,10 +220,12 @@ background-color: #1b1a1a;
     padding: 17px 14px 18px;
     color: #fff;
     background-color: #1b1a1a;
-        justify-content: center;
-        align-items: center;
-        height:72px;
-        margin:auto;
+    justify-content: center;
+    align-items: center;
+    height:72px;
+    margin:auto;
+    transition-duration:0.4s ;
+
         
     }
 .button1:hover { background-color:rgba(175, 96, 42, 0.65);}
@@ -225,10 +234,187 @@ background-color: #1b1a1a;
     padding-left:20;
     padding-top:0;
     margin-top:-70;
-    align-items:left ;
 }
 
 .icons{
     padding-top: 30;
     padding-left:  30;
+}
+
+#why{
+    margin-top: -42;
+}
+
+.headingg6, .headingg61{
+    font-size: 32;
+    margin-top: -35;
+    margin-right:100;
+       
+}
+
+.greyy3, .greyy32{
+    color: gray;
+    font-size: 18;
+    font-weight: 300;
+    font-family:'Noto sans';
+    padding-top: 20;
+    padding-left: 59%;
+    line-height: 1.3em;
+    font-stretch: ultra-expanded;
+    word-spacing: 1.2px;;
+}
+
+.imgright{
+    padding-right:5;
+    padding-top:0;
+    margin-top:100;
+    
+}
+
+.headingg61{
+    margin-left: 495px;
+}
+
+.headingg62{
+    font-size: 33;
+    margin-top: -35;
+    margin-left:-120;
+}
+
+.greyy32{
+    padding-left: 110;
+
+}
+
+#iconss{
+    margin-left:-18;
+    margin-right: -5;
+}
+
+
+#myVideo{
+    position:bottom;
+    align-items: center;
+    margin-left:0;
+    width:1000;
+    height:790;
+    right: 0;
+    bottom:0;
+    z-index: -1;
+    object-fit: cover;
+    padding-top: 100px;
+}
+
+
+.headinggg, .headinggbutton{
+    color: #ffffff;
+    position: relative;
+    z-index: 1;
+    margin-top: -600;
+    
+
+}
+
+.subsubheading, .subsubheading1{
+    font-size: 19;
+    font-family: "Sans-serif";
+    font-weight:60;
+    padding-top:18;
+    font-stretch: extra-expanded;
+    padding-bottom:14;
+    text-align:center;
+    color:rgb(255, 255, 255)
+    
+}
+
+.subsubheading1{
+    font-size: 16.5;
+    word-spacing: 2;
+    letter-spacing: 0.4px;
+    
+}
+
+
+.buttonn{
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 500px;
+    border:rgb(255, 255, 255) ;
+    letter-spacing: 2px;
+    width:250px;
+    text-align: center;
+    font-size: 16;
+    padding: 20px 18px 20px;
+    color: #000000;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:72px;
+    margin:0 auto;
+    transition-duration:0.4s ;
+    }
+.buttonn:hover { 
+    background-color:rgba(0, 0, 0, 1);
+    color: #ffffff;
+    border-color:rgb(0, 0, 0) ;
+
+
+
+}
+
+.headinggbutton{
+    margin:0;
+    padding-top: 20px;
+}
+
+.imagelast{
+    padding-left: 15;
+    margin-top: 335;
+}
+
+.headingg33{
+    line-height: 1.3em;
+    font-size: 42;
+    padding-left: 52%;
+}
+
+.subheadingg11{
+    text-align:left;
+    padding-top: 20;
+    padding-bottom: 40px;
+    padding-left: 52%;
+}
+.subheadingg112{
+    text-align:left;
+    padding-top: 20;
+    padding-bottom: 10px;
+    padding-left: 52%;
+    font-size: 22;
+
+}
+
+.greyy33{
+    font-size: 28;
+    padding:0;
+    text-align: left;
+    padding-left: 52%;
+}
+
+.greyy33  a{
+    text-decoration: none;
+    font-family: 'Sans-serif';
+    color:rgb(119, 118, 118);
+    padding-left:0;
+    font-size: 28;
+    text-align: left;
+}
+.greyy33 a:hover{
+    color:rgba(175, 96, 42, 0.65)
+}   
+
+.lastsecgray{
+    background-color:rgba(241,244,239,1);
+    margin-top: -20;
+    height: 25em;
 }
